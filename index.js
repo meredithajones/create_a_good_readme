@@ -4,6 +4,19 @@ const path = require("path")
 const markDown = require("./generaremarkdown")
 
 const input = [
+
+    { 
+        type: "input",
+        name: "tableOfContentsOne",
+        message: "Please enter the first item to list in your table of contents",
+    },
+
+    { 
+        type: "input",
+        name: "tableOfContentsTwo",
+        message: "Please enter the second item to list in your table of contents",
+    },
+
     { 
         type: "input",
         name: "filename",
