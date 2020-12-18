@@ -6,8 +6,6 @@ function generateMarkdown(data) {
   ## Table of Contents
 
   -[Introduction](#Introduction)
-
-  -[User Story](#UserStory)
   
   -[Technology](#Technology)
   
@@ -21,19 +19,36 @@ function generateMarkdown(data) {
   
   -[License](#License) 
 
-  
 
-        # ${data.projectURL}
-        # ${data.filename}
-        # ${data.Introduction}
-        # ${data.UserStory}
-        # ${data.Technology}
-        # ${data.Screenshots}
-        # ${data.secondScreenshot}
-        # ${data.Usage}
-        # ${data.Features}
-        * ${data.Credits}
-        * ${data.License}
+
+        ${data.projectURL}
+        ${data.filename}
+
+        ## Introduction
+         ${data.Introduction}
+           * User Story
+            ${data.UserStory}
+
+        ## Technology
+
+         ${data.Technology}
+
+        ## Screenshots
+         ${data.Screenshots}
+
+         ${data.secondScreenshot}
+
+        ## Usage
+         ${data.Usage}
+
+        ## Features
+         ${data.Features}
+
+        ## Credits
+         ${data.Credits}
+
+        ## License
+         ${data.License}
 
       
 
