@@ -19,37 +19,29 @@ const input = [
     },
 
     { 
-        type: "list",
-        name: "tableOfContentsOne",
-        message: "Please select the first item to list in your table of contents from the list below",
-        choices: [ "-[Introduction](#Introduction)" ,"-[Technology](#Technologies)", 
-        "-[Screenshots](#Screenshots)", "-[Usage](#Usage)", "-[Features](#Features)", 
-        "-[Credits](#Credits)", "-[License](#License)" ]
-    },
-
-    { 
-        type: "input",
-        name: "tableOfContentsTwo",
-        message: "Please enter the second item to list in your table of contents",
-    },
-
-    { 
         type: "input",
         name: "filename",
         message: "Please enter the name of your file.md",
         default: "README",
     },
-
+    
         {
             type: "input",
-            name: "userStory",
-            message: "Please enter the user story for your project",
+            name: "Introduction",
+            message: "Please enter a brief description of your project",
         },
 
         {
             type: "input",
-            name: "description",
-            message: "Please enter a brief description of your project",
+            name: "UserStory",
+            message: "Please enter the user story for your project",
+        },
+
+
+        {
+            type: "input",
+            name: "Technology",
+            message: "Please list the technology used to create your project",
         },
 
         {
@@ -72,7 +64,7 @@ function init() {
     .then(data => { 
         console.log(data);
         var temp = markDown(data)
-        writeToFile("README.md", temp)
+        writeToFile("generatedreadme.md", temp)
       
             
     })

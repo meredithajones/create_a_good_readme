@@ -2,12 +2,40 @@
 function generateMarkdown(data) {
     console.log("WE MADE IT!", data)
   return `# ${data.title}
-       site [website](${data.filename})'
 
-    Table of Contents
+  ## Table of Contents
 
-        #${data.description}
-        #${data.userStory}
+  -[Introduction](#Introduction)
+
+  -[User Story](#User Story)
+  
+  -[Technology](#Technology Used)
+  
+  -[Screenshots](#Screenshots)
+     
+  -[Usage](#Usage)
+  
+  -[Features](#Features)
+  
+  -[Credits](#Credits)
+  
+  -[License](#License) 
+
+  
+
+        # ${data.projectURL}
+        # ${data.filename}
+        # ${data.Introduction}
+        # ${data.Technology}
+        # ${data.Screenshots}
+        # ${data.Usage}
+        # ${data.Features}
+        # ${data.Credits}
+        # ${data.License}
+
+      
+
+      
 `;
 };
 // Installation
