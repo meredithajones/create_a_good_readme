@@ -2,13 +2,23 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const path = require("path")
 const markDown = require("./generaremarkdown")
+// const generateMarkdown = require('./utils/generateMarkdown.js');
 
 const input = [
 
-    { 
+    {
         type: "input",
+        name: "ProjectURL",
+        message: "Please enter the URL to your deployed project",
+    },
+
+    { 
+        type: "list",
         name: "tableOfContentsOne",
-        message: "Please enter the first item to list in your table of contents",
+        message: "Please select the first item to list in your table of contents from the list below",
+        choices: [ "-[Introduction](#Introduction)" ,"-[Technology](#Technologies)", 
+        "-[Screenshots](#Screenshots)", "-[Usage](#Usage)", "-[Features](#Features)", 
+        "-[Credits](#Credits)", "-[License](#License)" ]
     },
 
     { 
@@ -32,8 +42,21 @@ const input = [
 
         {
             type: "input",
+            name: "userStory",
+            message: "Please enter the user story for your project",
+        },
+
+        {
+            type: "input",
             name: "description",
             message: "Please enter a brief description of your project",
+        },
+
+        {
+            type: "list",
+            name: "license",
+            message: "Please select a license below",
+            choices: ["MIT", "ISC", "Apache", "IPL", "Unlicense"]
         },
 
 ];
