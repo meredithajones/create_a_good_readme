@@ -137,9 +137,6 @@ function init() {
     })
 }
 
-  
-// Create License dynamically with a hyperlink
- const printLicense = `\n[${License}](${LicenseURL})\n`;
 
 // function call to initialize program
 init();

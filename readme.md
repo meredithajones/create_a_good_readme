@@ -1,4 +1,4 @@
-# hddhjfhj
+# Excellent Project
 
   ## Table of Contents
 
@@ -18,33 +18,33 @@
 
 
 
-        sjkdjkdhj
+        www.mydeployedprject.com
         readme.md
 
-        ##Introduction
-         jskdjksau
+        ## Introduction
+         This is a project to help people do excellent things. 
            * User Story
-            jskjdksjf
+            I am a user who has been doing mediocre things, and I want an application which will help me to do excellent things only!
 
-        ##Technology
+        ## Technology
 
-         askdjkasjdh
+         Javascript, css, markdown
 
-        ##Screenshots
-         sjksjdfkjd
+        ## Screenshots
+         insert screenshot here
 
-         ajskdjskfj
+         insert 2nd screenshot here
 
-        ##Usage
-         sajdkasjdka
+        ## Usage
+         see above
 
-        ##Features
-         sskajdkasj
+        ## Features
+         My project directs you to all of the best actvivities according to your location.
 
-        ##Credits
-         jskdhdhfu
+        ## Credits
+         Me myself and I
 
-        ##License
+        ## License
          undefined
 
       
