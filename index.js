@@ -14,7 +14,7 @@ const input = [
 
     {
         type: "input",
-        name: "ProjectURL",
+        name: "projectURL",
         message: "Please enter the URL to your deployed project",
     },
 
@@ -45,12 +45,46 @@ const input = [
         },
 
         {
+            type: "input",
+            name: "Screenshots",
+            message: "Link to screenshot image",
+        },
+
+        {
+                type: "input",
+                name: "secondScreenshot",
+                message: "Link to screenshot image",
+                
+        },
+        
+
+
+        {
+            type: "input",
+            name: "Usage",
+            message: "Please list the technology used to create your project",
+        },
+
+        {
+            type: "input",
+            name: "Features",
+            message: "Please list the features of your project",
+        },
+
+        {
+            type: "input",
+            name: "Credits",
+            message: "Please list the resources, collaborators and databases that you used in your project",
+        },
+
+        {
             type: "list",
             name: "license",
             message: "Please select a license below",
             choices: ["MIT", "ISC", "Apache", "IPL", "Unlicense"]
         },
 
+       
 ];
 
 function writeToFile(fileName, data) {
@@ -64,7 +98,7 @@ function init() {
     .then(data => { 
         console.log(data);
         var temp = markDown(data)
-        writeToFile("generatedreadme.md", temp)
+        writeToFile("readme.md", temp)
       
             
     })

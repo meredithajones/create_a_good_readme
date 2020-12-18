@@ -1,4 +1,4 @@
-# Meredith's Project
+# This is the name of my project
 
   ## Table of Contents
 
@@ -20,15 +20,17 @@
 
   
 
-        # undefined
-        # generatedreadme.md
-        # This is a really cool project!
-        # Javascript
-        # undefined
-        # undefined
-        # undefined
-        # undefined
-        # undefined
+        #www.theurlofmyproject.com
+        #readme
+        #This is the description of my project
+        #User Story for my project
+        #Technology used on my project
+        #link to screenshot
+        #link to screenshot
+        #tech used
+        #features of my project
+        #resources, collaborators databases
+        #undefined
 
       
 
