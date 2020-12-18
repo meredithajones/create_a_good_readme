@@ -7,9 +7,9 @@ function generateMarkdown(data) {
 
   -[Introduction](#Introduction)
 
-  -[User Story](#User Story)
+  -[User Story](#UserStory)
   
-  -[Technology](#Technology Used)
+  -[Technology](#Technology)
   
   -[Screenshots](#Screenshots)
      
@@ -23,17 +23,17 @@ function generateMarkdown(data) {
 
   
 
-        #${data.projectURL}
-        #${data.filename}
-        #${data.Introduction}
-        #${data.UserStory}
-        #${data.Technology}
-        #${data.Screenshots}
-        #${data.secondScreenshot}
-        #${data.Usage}
-        #${data.Features}
-        #${data.Credits}
-        #${data.License}
+        # ${data.projectURL}
+        # ${data.filename}
+        # ${data.Introduction}
+        # ${data.UserStory}
+        # ${data.Technology}
+        # ${data.Screenshots}
+        # ${data.secondScreenshot}
+        # ${data.Usage}
+        # ${data.Features}
+        * ${data.Credits}
+        * ${data.License}
 
       
 
