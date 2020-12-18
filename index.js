@@ -8,6 +8,12 @@ const input = [
 
     {
         type: "input",
+        name: "title",
+        message: "Please enter the name of your project",
+    },
+
+    {
+        type: "input",
         name: "ProjectURL",
         message: "Please enter the URL to your deployed project",
     },
@@ -33,12 +39,6 @@ const input = [
         message: "Please enter the name of your file.md",
         default: "README",
     },
-
-    {
-            type: "input",
-            name: "title",
-            message: "Please enter the name of your project",
-        },
 
         {
             type: "input",
