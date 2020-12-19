@@ -62,7 +62,7 @@ const input = [
         {
             type: "input",
             name: "Usage",
-            message: "Please list the technology used to create your project",
+            message: "Please input the usage for your project",
         },
 
         {

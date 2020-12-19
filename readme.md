@@ -1,51 +1,51 @@
-# Excellent Project
+# Meredith Jones' Good Readme Generator
 
   ## Table of Contents
 
-  -[Introduction](#Introduction)
+  -[Introduction](##Introduction)
   
-  -[Technology](#Technology)
+  -[Technology](##Technology)
   
-  -[Screenshots](#Screenshots)
+  -[Screenshots](##Screenshots)
      
-  -[Usage](#Usage)
+  -[Usage](##Usage)
   
-  -[Features](#Features)
+  -[Features](##Features)
   
-  -[Credits](#Credits)
+  -[Credits](##Credits)
   
-  -[License](#License) 
+  -[License](##License) 
 
 
 
-        www.mydeployedprject.com
+        https://github.com/meredithajones
         readme.md
 
-        ## Introduction
-         This is a project to help people do excellent things. 
-           * User Story
-            I am a user who has been doing mediocre things, and I want an application which will help me to do excellent things only!
+## Introduction
+    In this project, I utilized node js to create a template utilizing prompts to walk a user through creating a good readme document to accompany a project.
+        * User Story
+          As a user, I need to create a thorough and organized readme file to explain a project that I created. When I begin this application by initializing node js, I am walked through a series of prompts which when answered, will produce a readme for my project.
 
-        ## Technology
+## Technology
 
-         Javascript, css, markdown
+    javascript, node.js, and markdown.
 
-        ## Screenshots
-         insert screenshot here
+## Screenshots
+    to be attached.
 
-         insert 2nd screenshot here
+      to be attached.
 
-        ## Usage
-         see above
+## Usage
+    The usage for this project is to accept input from promts and fee them through a template literal to create a good readme.md document. 
 
-        ## Features
-         My project directs you to all of the best actvivities according to your location.
+## Features
+    
 
-        ## Credits
-         Me myself and I
+## Credits
+  I did not have any collaborators on this project but I did use the follwing resources: 
 
-        ## License
-         undefined
+## License
+  undefined
 
       
 
