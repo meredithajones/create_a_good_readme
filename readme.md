@@ -36,7 +36,7 @@
    * Demo Video ![“A short video demonstration of the good readme generator promting, taking in answers and creating a readme document from them”]         (https://vimeo.com/492716286)
    
    * Screenshot 1
-   ![alt text](assets/images/screenshot.png)
+   ![a screenshot of the application starting question prompts in terminal](assets/images/screenshot1.png)
 
 
 ## Usage
