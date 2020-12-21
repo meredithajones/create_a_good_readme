@@ -37,6 +37,10 @@
    
    * Screenshot 1
    ![a screenshot of the application starting question prompts in terminal](assets/photos/screenshot1.png)
+   
+   * Screenshot 2
+   ![a screenshot of the generated readme](assets/photos/screenshotgenerated.png)
+   
 
 
 ## Usage
