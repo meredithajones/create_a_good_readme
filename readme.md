@@ -33,7 +33,11 @@
     javascript, node.js, and markdown.
 
 ## Screenshots
-   *Demo Video ![“A short video demonstration of the good readme generator promting, taking in answers and creating a readme document from them”]         (https://vimeo.com/492716286)
+   * Demo Video ![“A short video demonstration of the good readme generator promting, taking in answers and creating a readme document from them”]         (https://vimeo.com/492716286)
+   
+   * Screenshot 1
+   ![alt text](assets/images/screenshot.png)
+
 
 ## Usage
     The usage for this project is to accept input from promts and fee them through a template literal to create a good readme.md document. 
